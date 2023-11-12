@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{7aad675f-f5b6-4c33-a433-887327f9a207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML">
+      <UniqueIdentifier>{5152a179-682b-4720-a205-85d588833eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Syncronization">
+      <UniqueIdentifier>{bded20ec-5803-47ae-b959-d54c2c778e16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compress">
+      <UniqueIdentifier>{b4cb97d0-02e6-4a3e-b6d6-aaabf09e7f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encryption">
+      <UniqueIdentifier>{217fbf69-0721-478f-8f08-0275ec57afed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CRC">
+      <UniqueIdentifier>{5eadf87f-2012-4c6b-a57d-b12c3ca2d4dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{a4ad24ec-3d75-4b8e-826f-3060616b92fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json">
+      <UniqueIdentifier>{27d1b344-1c4a-4dde-bdf8-f44a2702b647}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="XML\StringConversion.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="SFIOCPQueue.h">
+      <Filter>Syncronization</Filter>
+    </ClInclude>
+    <ClInclude Include="SFObjectPool.h">
+      <Filter>Syncronization</Filter>
+    </ClInclude>
+    <ClInclude Include="SFLock.h">
+      <Filter>Syncronization</Filter>
+    </ClInclude>
+    <ClInclude Include="SFCompressor.h">
+      <Filter>Compress</Filter>
+    </ClInclude>
+    <ClInclude Include="SFCompressLzf.h">
+      <Filter>Compress</Filter>
+    </ClInclude>
+    <ClInclude Include="SFEncrytion.h">
+      <Filter>Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="SFEncryptionXOR.h">
+      <Filter>Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="SFFastCRC.h">
+      <Filter>CRC</Filter>
+    </ClInclude>
+    <ClInclude Include="7zcrc.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\crc.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\JsonNode.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\elements.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\reader.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\visitor.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\writer.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\DataTypeConvertor.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Json\JsonBuilder.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="XML\StringConversion.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Macro.h">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="SFCompressLzf.cpp">
+      <Filter>Compress</Filter>
+    </ClCompile>
+    <ClCompile Include="SFEncryptionXOR.cpp">
+      <Filter>Encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="SFFastCRC.cpp">
+      <Filter>CRC</Filter>
+    </ClCompile>
+    <ClCompile Include="7zcrc.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="External\crc.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="Json\JsonNode.cpp">
+      <Filter>Json</Filter>
+    </ClCompile>
+    <ClCompile Include="Json\JsonBuilder.cpp">
+      <Filter>Json</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Json\elements.inl">
+      <Filter>Json</Filter>
+    </None>
+    <None Include="Json\reader.inl">
+      <Filter>Json</Filter>
+    </None>
+    <None Include="Json\writer.inl">
+      <Filter>Json</Filter>
+    </None>
+  </ItemGroup>
+</Project>

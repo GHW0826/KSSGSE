@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="SingltonObject.h" />
+    <ClInclude Include="ACEHeader.h" />
+    <ClInclude Include="ACEEngine.h" />
+    <ClInclude Include="ACETimeOutHandler.h" />
+    <ClInclude Include="ProactorService.h" />
+    <ClInclude Include="ProactorServiceManager.h" />
+    <ClInclude Include="IDMap.h" />
+    <ClInclude Include="Queue.h" />
+    <ClInclude Include="Lock.h" />
+    <ClInclude Include="ProactorAcceptor.h" />
+    <ClInclude Include="InterlockedValue.h" />
+    <ClInclude Include="ProactorWorkerThread.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ACEEngine.cpp" />
+    <ClCompile Include="ProactorService.cpp" />
+    <ClCompile Include="ProactorAcceptor.cpp" />
+    <ClCompile Include="InterlockedValue.cpp" />
+    <ClCompile Include="ProactorWorkerThread.cpp" />
+  </ItemGroup>
+</Project>

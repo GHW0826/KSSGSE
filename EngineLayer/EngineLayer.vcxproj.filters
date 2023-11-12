@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{c1185e86-729f-49f6-aeda-2f260af6389e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{2eaa07c4-e6a5-463c-ba3b-fb0d81dd91b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet">
+      <UniqueIdentifier>{6180a465-8bb5-4365-9915-227eb07f96f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet\JsonPacket">
+      <UniqueIdentifier>{fd0e4903-3a32-423d-ab6d-ee6e4073181c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{5ca6bc1b-8a77-4f68-b531-bb05b5a33544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet\PacketProtocol">
+      <UniqueIdentifier>{af97b036-cb68-4585-be4b-448d2e452f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dispatcher">
+      <UniqueIdentifier>{1ac389b8-49c6-4738-b97e-2360979c02d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton">
+      <UniqueIdentifier>{54c71da6-5a1b-48f3-a60b-c2d5b7b911f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet\CGSFPacket">
+      <UniqueIdentifier>{b1d40b04-f25e-455b-9d9f-96235621c305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RPC">
+      <UniqueIdentifier>{83d15ce9-0f5b-48c1-b0dc-80d290ac6ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientInterface">
+      <UniqueIdentifier>{bcfe3d53-0a3f-4553-9c6e-caadba3f0409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataLoader">
+      <UniqueIdentifier>{943b5b1c-3648-40b0-b685-eae7e7825d99}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ILogicEntry.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SFJsonPacket.h">
+      <Filter>Packet\JsonPacket</Filter>
+    </ClInclude>
+    <ClInclude Include="SFEngine.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="SFStructure.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SFPacketProtocolManager.h">
+      <Filter>Packet\PacketProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="ILogicDispatcher.h">
+      <Filter>Dispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="SFCasualGameDispatcher.h">
+      <Filter>Dispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="SFLogicDispatcher.h">
+      <Filter>Dispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="SFServerConnectionManager.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="SFConfigure.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SFSessionService.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="SFSingleton.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="SFPacketSendGateway.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="ACEHeader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SFCGSFPacketProtocol.h">
+      <Filter>Packet\CGSFPacket</Filter>
+    </ClInclude>
+    <ClInclude Include="SFBasePacketProtocol.h">
+      <Filter>Packet\PacketProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="SFIOBuffer.h">
+      <Filter>Packet\CGSFPacket</Filter>
+    </ClInclude>
+    <ClInclude Include="SFConstant.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SFPacketIOBuffer.h">
+      <Filter>Packet\CGSFPacket</Filter>
+    </ClInclude>
+    <ClInclude Include="SFPacket.h">
+      <Filter>Packet\CGSFPacket</Filter>
+    </ClInclude>
+    <ClInclude Include="SFPacketProtocol.h">
+      <Filter>Packet\PacketProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="SFRPCGateway.h">
+      <Filter>RPC</Filter>
+    </ClInclude>
+    <ClInclude Include="SFLogicGateway.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicEntry.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="IRPCService.h">
+      <Filter>RPC</Filter>
+    </ClInclude>
+    <ClInclude Include="SFNetworkEntry.h">
+      <Filter>ClientInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="SFTCPNetwork.h">
+      <Filter>ClientInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="SFUDPNetwork.h">
+      <Filter>ClientInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="SFIni.h">
+      <Filter>DataLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="SFJsonProtocol.h">
+      <Filter>Packet\JsonPacket</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ILogicEntry.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="SFJsonPacket.cpp">
+      <Filter>Packet\JsonPacket</Filter>
+    </ClCompile>
+    <ClCompile Include="SFEngine.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="SFPacketProtocolManager.cpp">
+      <Filter>Packet\PacketProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="SFCasualGameDispatcher.cpp">
+      <Filter>Dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="SFLogicDispatcher.cpp">
+      <Filter>Dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="SFServerConnectionManager.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="SFSessionService.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="SFPacketSendGateway.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="SFCGSFPacketProtocol.cpp">
+      <Filter>Packet\CGSFPacket</Filter>
+    </ClCompile>
+    <ClCompile Include="SFBasePacketProtocol.cpp">
+      <Filter>Packet\PacketProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="SFIOBuffer.cpp">
+      <Filter>Packet\CGSFPacket</Filter>
+    </ClCompile>
+    <ClCompile Include="SFPacketIOBuffer.cpp">
+      <Filter>Packet\CGSFPacket</Filter>
+    </ClCompile>
+    <ClCompile Include="SFPacket.cpp">
+      <Filter>Packet\CGSFPacket</Filter>
+    </ClCompile>
+    <ClCompile Include="SFPacketProtocol.cpp">
+      <Filter>Packet\PacketProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="SFConfigure.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="SFRPCGateway.cpp">
+      <Filter>RPC</Filter>
+    </ClCompile>
+    <ClCompile Include="SFLogicGateway.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicEntry.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="SFNetworkEntry.cpp">
+      <Filter>ClientInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="SFTCPNetwork.cpp">
+      <Filter>ClientInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="SFUDPNetwork.cpp">
+      <Filter>ClientInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="SFIni.cpp">
+      <Filter>DataLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="SFJsonProtocol.cpp">
+      <Filter>Packet\JsonPacket</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
